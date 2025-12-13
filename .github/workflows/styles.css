@@ -1,4 +1,44 @@
+/* Estilos que estaban en la etiqueta <body> */
 body {
-    background-color: negro;
-    color: blanco;
+    background-color: black;
+    color: white;
+}
+
+/* Estilos para el título principal (Franklin Yordani García Moreira) */
+h1 {
+    color: rgba(0, 255, 0, 0.781); 
+    margin-left: 30%; 
+}
+
+/* Estilos para el subtítulo de la foto (v > FOTO < V) */
+h3 {
+    color: blue;
+    margin-left: 43%;
+}
+
+/* Estilos para la imagen */
+img {
+    margin-left: 40%;
+}
+
+/* Estilos para los títulos secundarios (Perfil, Habilidades) y <h1> (Lenguajes, Datos Personales) */
+/* Usamos selectores múltiples para aplicar el mismo color a varios títulos */
+h2, #lenguajes h1, #datos_personales h1 {
+    color: chartreuse;
+}
+
+/* Estilo específico para el <h1> de Experiencia Laboral */
+#experiencia h1 {
+    color: rgb(78, 236, 15);
+    /* Sobrescribe el color del h1 general si es necesario */
+}
+
+/* Estilos para la sección de Competencias Profesionales */
+#competencias h2 {
+    color: #22e04b; /* Verde claro */
+}
+
+#competencias {
+    margin-left: 1px;
+    margin-top: 30px;
 }
